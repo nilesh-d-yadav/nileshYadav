@@ -1,0 +1,63 @@
+1. When we install Vite, in .gitignore folder, we have files and data that won't be required when our develpment is done. Eg: - node modules etc..
+
+& also the below
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+2. "icons8.com" for getting good icons
+
+3. App.jsx consist of JSX or TSX (TypeScript XML Files), JSX = HTML(in the form of another markup language called XML) + JavaScript  
+
+4. Install extension "ES7+ React/Redux/React-Native Snippets" to create components with shortcuts like 'rfce'
+
+5. In a tag, instead of class we use 'className' as we ren't using HTML, but a combination of Js and XML, and claass has a whole different meaning in Js, hence 'className'
+
+6. IMP-DEV_Point:- To add link to a button or image, firstly create a href tag and inside that use 'img' or 'button'\
+
+7. <a href={CV} target="_blank">
+      <button className="hover" download>
+            Resume
+      </button>
+   </a>
+
+   --> download helps to download whatever that opens in a href.
+
+8. While using a pseudo class like hover, we do is ".class:hover{} ", but if we do ".hover{}", only it applies for all buttons and links.
+
+9. height: 100dvh, means no matter on what device you're that certain component will take the complete height as per your screen. Also, sometimes if we put our phone in landscape mode, the upper content can get diminished, so in addition to "100dvh" , we do min-height: 500px. (dvh = device view height, adjusts 100 % depending upon different devices.)
+
+10. If i do display flex, and then flex direction as column , justify content as center, well now if i use <hr/> tag , it won't fill the enire screen with a horizontal line, it will fill that part till the width of the flex column.
+
+11. While applying styles, if we create a component.jsx, then we further create components out of it, we do not need to create separate css file or modular css for it as, applying to the main will go to child files as well, and individually we can take in child.jsx elements and apply as at the end, everything gets submerged in parent.jsx only
+
+12. Created a 'textarea' and 2 input fields and another input field of 'submit' type. If we want CSS to apply to 'textarea' and 2 input fields without touching the submit input, we use:-
+
+-->  textarea, input:not([type='submit']){   }
+
+
+
+
+	01:33:29 - Contact component 
+	01:35:23 - Form video ref 
+	01:39:08 - Form styling 
+	01:47:40 - Footer component and styling 
+	01:49:02 - General media queries 
+	01:53:34 - Making Hero responsive 
+	01:55:46 - Making Projects responsive 
+	01:57:20 - Making Projects responsive 
+	01:58:45 - Making Contact responsive 
+	02:01:06 - Form video ref 
+
+13. Responsive Website
+
+
+14. Select 2 -3 lines, click Shift + Alt and press the 'down' key. It will copy the selected part in next lines as many time as you want.
